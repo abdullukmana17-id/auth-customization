@@ -19,7 +19,7 @@ app/
     └── ...
 ```
 
-2. Konfigurasi Tampilan Autentikasi
+### 2. Konfigurasi Tampilan Autentikasi
 Edit file app/Config/Auth.php pada properti $views agar sesuai dengan tampilan UI yang Anda tambahkan:
 
 ```bash
