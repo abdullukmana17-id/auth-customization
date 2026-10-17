@@ -3,12 +3,14 @@ Kustomisasi tampilan autentikasi untuk proyek CodeIgniter 4 menggunakan CodeIgni
 
 ### 1. Menambahkan Tampilan UI Autentikasi
 
-- Unduh file tampilan autentikasi dari repositori, baik menggunakan template yang disediakan maupun tampilan buatan sendiri.
+- Unduh file tampilan autentikasi dari repositori.
 - Pindahkan seluruh file tampilan autentikasi ke direktori `app/Views/` pada proyek CodeIgniter 4 Anda.
 
 ```bash
 app/
 └── Views/
+    ├── assets
+    ├── layout
     ├── login.php
     ├── register.php
     ├── email_2fa_show.php
