@@ -26,16 +26,16 @@ Edit file app/Config/Auth.php pada properti $views agar sesuai dengan tampilan U
 
 ```bash
 public array $views = [
-    'login'                       => '\App\Views\auth\login',
-    'register'                    => '\App\Views\auth\register',
+    'login'                       => '\App\Views\login',
+    'register'                    => '\App\Views\register',
     'layout'                      => '\CodeIgniter\Shield\Views\layout',
-    'action_email_2fa'            => '\App\Views\auth\email_2fa_show',
-    'action_email_2fa_verify'     => '\App\Views\auth\email_2fa_verify',
+    'action_email_2fa'            => '\App\Views\email_2fa_show',
+    'action_email_2fa_verify'     => '\App\Views\email_2fa_verify',
     'action_email_2fa_email'      => '\CodeIgniter\Shield\Views\Email\email_2fa_email',
-    'action_email_activate_show'  => '\App\Views\auth\email_activate_show',
+    'action_email_activate_show'  => '\App\Views\email_activate_show',
     'action_email_activate_email' => '\CodeIgniter\Shield\Views\Email\email_activate_email',
-    'magic-link-login'            => '\App\Views\auth\magic_link_form',
-    'magic-link-message'          => '\App\Views\auth\magic_link_message',
+    'magic-link-login'            => '\App\Views\magic_link_form',
+    'magic-link-message'          => '\App\Views\magic_link_message',
     'magic-link-email'            => '\CodeIgniter\Shield\Views\Email\magic_link_email',
 ];
 ```
